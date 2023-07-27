@@ -1,0 +1,52 @@
+header{
+   display: flex;
+   flex-direction: row ;
+   justify-content:space-between;
+   align-items: center;
+   background-color: rgb(21, 31, 2);
+   padding: 25px;
+
+   }
+
+   
+header h1{
+    font-size: 2.5em;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav a{
+    margin-right: 1.3em;
+    font-size: 1.5em;
+    
+}
+
+header nav a{
+    color: yellowgreen;
+    
+}
+
+/* Fazendo uso da pseudo classe 'hover", sempre que o mouse passar por algum link "a" ou 
+pelo nome do da página ( Soul:Dev ) a cor do íoone
+irá mudar para branco ( #fff )*/
+
+header a:hover , h1:hover{
+    color: #ffff;
+    
+}
+
+header h1, a{
+    transition: 0.3s ease-in-out;
+}
+
+.main-content h2{
+
+    font-size: 1.5em;
+    font-weight: 300;
+
+}

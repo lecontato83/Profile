@@ -1,0 +1,15 @@
+footer{
+    background-color: rgb(21, 31, 2);
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+span{
+    font-size: 0.8em;
+    color: yellowgreen;
+    font-weight: 300;
+    
+}
